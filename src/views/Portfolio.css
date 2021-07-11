@@ -1,0 +1,15 @@
+.portfolio .portfolio-projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-single{
+    flex: 1;
+    padding: 25px;
+    margin: 25px 25px 25px 0;
+    max-width: 320px;
+    max-height: 240px;
+    min-width: 320px;
+    min-height: 240px;
+    background-color: #ccc;
+}
