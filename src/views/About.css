@@ -1,0 +1,54 @@
+
+.about h3{
+    color: white;
+    font-weight: 300;
+    font-size: 62px;
+}
+
+.about h3 span{
+    color: #ff4ba8;
+    font-size: 14px;
+}
+
+.about h4{
+    color: #ff4ba8;
+    font-size: 43px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.about p{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    max-width: 900px;
+    line-height: 55px;
+    margin-bottom: 55px;
+}
+
+.about p strong{
+    font-weight: 300;
+}
+
+@media screen and (max-width: 768px){
+    .about h3{
+        
+        font-size: 45px;
+    }
+
+    .about h3 span{
+        
+        font-size: 10px;
+    }
+    
+    .about h4{     
+        font-size: 36px;
+    }
+    
+    .about p{
+       
+        font-size: 24px;
+        line-height: 45px;
+        
+    }
+}
